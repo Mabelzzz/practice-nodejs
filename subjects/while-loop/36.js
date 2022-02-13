@@ -1,0 +1,1 @@
+// 36. print Fibonacci series up to n terms.
