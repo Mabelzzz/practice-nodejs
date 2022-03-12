@@ -1,10 +1,12 @@
-// Number pattern 47 : Triangle Hard Number Patterns
+// Number pattern 47 : Triangle Hard Number Patterns (finished)
 
 // for loop
 console.log('---- for loop ----');
 for (let i = 1; i <= 5; i++) { 
-    for (let j = 1; j <= (i * 2 - 1); j++) {
-        process.stdout.write(j + '');
+    for (let j = 1, k = 1; j <= 9; j++) {
+        for (let k = 1; k <= 16; k+=k) {
+            process.stdout.write(j + '');
+        }
     }
     console.log();
 }

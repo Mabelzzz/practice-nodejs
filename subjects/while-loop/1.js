@@ -12,7 +12,6 @@ while (i < 1000) {
     i++;
 } 
 
-
 while (j <= n) {
     process.stdout.write(j + ' ');
     j++;

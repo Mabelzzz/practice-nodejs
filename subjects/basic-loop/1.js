@@ -1,7 +1,10 @@
 // 1. Write Program to read in 10 numbers and compute the average, maximum and minimum value
 let input = require('readline-sync');
 
-let sum = 0, max = 0 , min = 10000000, n;
+let sum = 0;
+let max = 0; 
+let min = 10000000;
+let n;
 let num = [];
 
 for(let a = 1; a <= 10; a++) {

@@ -1,4 +1,4 @@
-// Number pattern 1
+// Number pattern 1 (finished)
 
 // for loop
 console.log('---- for loop ----');

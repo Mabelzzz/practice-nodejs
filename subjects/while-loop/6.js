@@ -2,7 +2,10 @@
 let input = require('readline-sync');
 
 let n = Number(input.question('Input natural number : '));
-let i = 1, j = 1, sum = 0;
+let i = 1;
+let j = 1;
+let sum = 0;
+
 while (i < 1000) {
     if (n > 0 && n % 1 === 0) {
         break;
@@ -11,7 +14,6 @@ while (i < 1000) {
     }
     i++;
 } 
-
 
 while (j <= n) {
     sum = sum + j;

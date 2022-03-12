@@ -1,10 +1,10 @@
-// Number pattern 2
+// Number pattern 2 (finished)
 
 // for loop
 console.log('---- for loop ----');
 for (let i = 0; i < 5; i++) {
     for (let j = 0; j < 5; j++) {
-        process.stdout.write(x % 2 === 0 ? `1` : `0`);
+        process.stdout.write(i % 2 === 0 ? `1` : `0`);
     }
     console.log();
 }

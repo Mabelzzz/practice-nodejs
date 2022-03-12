@@ -1,5 +1,3 @@
-// 3
- 
 function largestSwap(num) {
     let text = String(num);
     if(num >= 10 && num <=99) {

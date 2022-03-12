@@ -2,7 +2,8 @@
 //    Show how many numbers were between 100 and 200 (both include).
 let input = require('readline-sync');
 
-let count = 0, n;
+let count = 0;
+let n;
 let num = [];
 
 for(let a = 1; a <= 10; a++) {
